@@ -76,11 +76,8 @@ const Home = () => {
 
             {/* Hero Section */}
             <section className="relative h-screen flex items-center justify-center bg-slate-950 overflow-hidden">
-                {/* Background with overlay */}
-                <div className="absolute inset-0 z-0">
-                    <iframe src='https://my.spline.design/orbscrolltriggerforhero-g0oExdQ960LnbFdlETb2yoKI/' frameBorder='0' width='100%' height='100%'></iframe>
-                </div>
-                <div className="absolute inset-0 bg-slate-950/70 z-0 pointer-events-none"></div>
+                {/* Background */}
+                <div className="absolute inset-0 bg-slate-950 z-0"></div>
 
                 <div className="relative z-10 container mx-auto px-4 text-center mt-10">
                     <div className="animate-fade-in-up">
